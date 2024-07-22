@@ -6,12 +6,50 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,900&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Become a BBQ master</title>
   </head>
   <body>
-    <div class="container flex"></div>
+    <div class="intro">
+      <h1 class="title">
+        Learn how to make <strong>the best BBQ ribs</strong> in town
+      </h1>
+      <p class="subtitle">Join us for this live webinar</p>
+      <p class="top-text">Mouthwateringly delicious</p>
+    </div>
+    <div class="main-content">
+      <h2 class="main-content-title">Become a BBQ master!</h2>
+      <p class="main-content-subtitle">Register today</p>
+      <p class="main-content-body">
+        BBQ isn't just standing in front of your grill with it on full blast and
+        hoping for the best. It's an art! One way to speed up the process is to
+        learn from the best. You can do just that by signing up for this free
+        webinar!
+      </p>
+      <form action="POST" class="sign-up-form">
+        <label for="first-name"></label>
+        <input
+          type="text"
+          id="first-name"
+          class="first-name"
+          placeholder="first name"
+        />
+        <label for="email"> </label>
+        <input type="email" id="email" class="email" placeholder="email" />
+        <label for="register"> </label>
+        <input
+          type="button"
+          id="register"
+          class="button modified-button"
+          value="Register"
+        />
+      </form>
+      <p class="fine-print">
+        We'll never share your information without your permission
+      </p>
+    </div>
   </body>
 </html>
