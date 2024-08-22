@@ -14,6 +14,7 @@
   </head>
   <body>
     <div class="intro">
+      <div class="line"></div>
       <div class="container container-intro">
         <h1 class="title">
           Learn how to make <strong>the best BBQ ribs</strong> in town
@@ -32,23 +33,27 @@
           is to learn from the best. You can do just that by signing up for this
           free webinar!
         </p>
-        <form action="POST" class="sign-up-form">
+        <form action="#" method="POST" class="sign-up-form">
           <label for="first-name"></label>
           <input
             type="text"
             id="first-name"
             class="first-name"
             placeholder="first name"
+            required
           />
           <label for="email"> </label>
-          <input type="email" id="email" class="email" placeholder="email" />
-          <label for="register"> </label>
           <input
-            type="button"
-            id="register"
-            class="button modified-button"
-            value="Register"
+            type="email"
+            id="email"
+            class="email"
+            placeholder="email"
+            required
           />
+          <label for="register"> </label>
+          <button type="submit" id="register" class="button modified-button">
+            Register
+          </button>
         </form>
         <p class="fine-print">
           We'll never share your information without your permission

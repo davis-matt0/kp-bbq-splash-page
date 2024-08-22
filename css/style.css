@@ -32,6 +32,7 @@ h1 {
   font-weight: 900;
   text-transform: uppercase;
   margin-top: 0;
+  margin-bottom: 1.25em;
 }
 
 h2 {
@@ -48,7 +49,7 @@ strong {
   text-transform: uppercase;
   font-size: 0.625rem;
   font-weight: 900;
-  letter-spacing: 1px;
+  letter-spacing: 0.2em;
   order: -1;
 }
 
@@ -81,6 +82,56 @@ strong {
   min-height: 50vh;
 }
 
+.sign-up-form {
+  width: 80%;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0.5em;
+}
+
+input,
+button {
+  width: 100%;
+  padding: 0.5em;
+}
+
+input {
+  margin-bottom: 0.75em;
+  text-align: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  border: 1px solid #404040;
+  border-radius: 5px;
+}
+
+button {
+  display: inline-block;
+  border: 0;
+  border-radius: 5px;
+  background-image: linear-gradient(90deg, #ffa51d, #ff713b);
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  font-family: inherit;
+  font-size: 0.625rem;
+  padding: 1.5em;
+  cursor: pointer;
+}
+
+button:hover,
+button:focus {
+  opacity: 90%;
+}
+
+.line {
+  background-image: linear-gradient(90deg, #ffa51d, #ff713b);
+  width: 11em;
+  margin: 0 auto;
+  height: 1vh;
+}
+
 @media (min-width: 500px) {
   body {
     font-size: 1.125rem;
@@ -100,6 +151,9 @@ strong {
   .main-content {
     width: 50%;
     min-height: 100vh;
+  }
+
+  .container-intro {
   }
 
   .main-content {
