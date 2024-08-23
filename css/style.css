@@ -51,6 +51,7 @@ strong {
   font-weight: 900;
   letter-spacing: 0.2em;
   order: -1;
+  margin-top: 0.5em;
 }
 
 .fine-print {
@@ -118,15 +119,18 @@ button {
   font-size: 0.625rem;
   padding: 1.5em;
   cursor: pointer;
+  transition: color 250ms;
 }
 
 button:hover,
 button:focus {
   opacity: 90%;
+  color: black;
 }
 
 .line {
   background-image: linear-gradient(90deg, #ffa51d, #ff713b);
+  /* background-color: #f18119; */
   width: 11em;
   margin: 0 auto;
   height: 1vh;
@@ -151,9 +155,6 @@ button:focus {
   .main-content {
     width: 50%;
     min-height: 100vh;
-  }
-
-  .container-intro {
   }
 
   .main-content {
