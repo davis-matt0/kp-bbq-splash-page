@@ -131,7 +131,7 @@ button:focus {
 .line {
   background-image: linear-gradient(90deg, #ffa51d, #ff713b);
   /* background-color: #f18119; */
-  width: 11em;
+  width: 12.5em;
   margin: 0 auto;
   height: 1vh;
 }
@@ -169,5 +169,9 @@ button:focus {
 
   .container-intro {
     height: 100%;
+  }
+
+  .line {
+    width: 11em;
   }
 }
